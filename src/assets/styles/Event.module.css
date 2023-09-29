@@ -1,0 +1,138 @@
+.eventCard {
+  border-radius: 16px;
+  border: 1px solid #E0E0E0;
+  background: #FFF;
+  box-shadow: 0px 0px 20px 2px rgba(9, 14, 130, 0.05);
+  padding: 22px;
+  margin: 24px 0;
+}
+
+.eventMain {
+  display: flex;
+  justify-content: space-between;
+}
+
+.eventMainLeft {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.info>h2 {
+  color: #020655;
+  font-size: 26px;
+
+  font-weight: 600;
+}
+
+.info>h3 {
+  color: #7D7D7D;
+  font-size: 16px;
+
+  font-weight: 500;
+}
+
+.time {
+  display: flex;
+  align-items: center;
+  margin-bottom: 18px;
+}
+
+.time>h4 {
+  color: #090E82;
+  font-family: Roboto Flex;
+  font-size: 14px;
+  font-weight: 500;
+  margin-left: 6px;
+}
+
+.eventMainRight {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.eventMainRight>h3 {
+  color: #7D7D7D;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.stats {
+  margin-top: 17px;
+  display: flex;
+}
+
+.minCommit>h2 {
+  border-radius: 8px;
+  border: 2px solid #9EA9C8;
+  background: #E1F1FF;
+  padding: 16px;
+  margin-right: 14px;
+  color: #9EA9C8;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.liveCount>h2 {
+  border-radius: 8px;
+  border: 2px solid #ECC446;
+  background: #FFF3DC;
+  padding: 16px;
+  color: #ECC446;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.minCommit>h4,
+.liveCount>h4 {
+  color: #7D7D7D;
+  font-family: Roboto Flex;
+  font-size: 9px;
+
+  font-weight: 600;
+  line-height: 24px;
+}
+
+/* Footer */
+
+.eventFooter {
+  display: flex;
+  align-items: center;
+  margin-top: 11px;
+}
+
+.eventFooter>h2 {
+  color: #000;
+  font-size: 24px;
+  font-weight: 600;
+  margin-right: 24px;
+  width: fit-content;
+  text-wrap: nowrap !important;
+  white-space: nowrap !important;
+}
+
+.notificationsButton {
+  border-radius: 8px;
+  border: 1px solid #090E82;
+  background: #ECEDFF;
+  display: flex;
+  align-self: center;
+  padding: 6px;
+  margin-right: 26px;
+}
+
+.notificationsButton>svg {
+  margin-right: 2px;
+}
+
+.manageButton {
+  border-radius: 8px;
+  border: 0;
+  background: #090E82;
+  color: #FFF;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 8px;
+  width: 100%;
+}

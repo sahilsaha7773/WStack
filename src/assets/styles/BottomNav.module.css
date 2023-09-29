@@ -1,0 +1,36 @@
+.bottomNav {
+  border-radius: 20px 20px 0px 0px;
+  background: #FFF;
+  box-shadow: 0px 2px 15px 2px rgba(9, 14, 130, 0.30);
+  position: fixed;
+  bottom: 0;
+  z-index: 100;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.navButton {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 0;
+  cursor: pointer;
+  width: fit-content;
+}
+.navButton > h3 {
+  color: #7D7D7D;
+  font-family: Roboto Flex;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+.activeBtn {
+  border-top: 4px solid #090E82;
+  border-radius: 2px;
+}
+.activeBtn > h3 {
+  color: #090E82;
+}
