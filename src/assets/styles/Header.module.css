@@ -12,12 +12,13 @@
   background: #F6F6F6;
 }
 
-.headerLeft > h1 {
+.headerLeft>h1 {
   font-size: 22px;
-  color: #020655;
+  color: var(--color-primary);
   font-weight: 600;
 }
-.headerLeft > h2 {
+
+.headerLeft>h2 {
   font-size: 12px;
   color: #7D7D7D;
   font-weight: 700;

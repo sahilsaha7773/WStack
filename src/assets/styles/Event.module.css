@@ -19,7 +19,7 @@
 }
 
 .info>h2 {
-  color: #020655;
+  color: var(--color-primary);
   font-size: 26px;
 
   font-weight: 600;

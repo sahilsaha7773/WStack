@@ -1,5 +1,5 @@
 .heading {
-  color: #020655;
+  color: var(--color-primary);
   font-size: 36px;
   font-weight: 700;
 }
